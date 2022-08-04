@@ -67,6 +67,28 @@
   font-weight:500;
 }
 
+/*media query*/
+@media(max-width:1200px) {
+  .mouse-wrapper {
+   display:none;
+  }
+}
+@media(max-width:750px) {
+  .content-header .display-3{
+    font-size:40px;
+  }
+  .content-header {
+    padding:5em 0 1em 0;
+    font-size:15px;
+  }
+
+  .background-two, .background-three, .background-four{
+    height:80vh;
+  }
+
+
+}
+
 /*ANIMATED MOUSE ARROW*/
 .mouse-wrapper {
 	position: absolute;
