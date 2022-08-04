@@ -67,7 +67,7 @@
   font-weight:500;
 }
 
-/*media query*/
+/*media query for all parallax panels*/
 @media(max-width:1200px) {
   .mouse-wrapper {
    display:none;
@@ -85,7 +85,6 @@
   .background-two, .background-three, .background-four{
     height:80vh;
   }
-
 
 }
 
